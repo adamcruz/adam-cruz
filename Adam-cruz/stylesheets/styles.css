@@ -1,0 +1,398 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Pacifico);
+
+body {
+  margin: 0;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  padding: 0;
+}
+
+div {
+  padding: 0;
+  margin: 0;
+}
+
+.section {
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/************************
+TYPOGRAPHY
+************************/
+
+
+
+h1 {
+  font-family: "Lato",Helvetica,Arial,sans-serif;
+}
+
+h2 {
+  font-family: "Pacifico",Helvetica,Arial,sans-serif;
+}
+
+h3 {
+  font-family: "Lato",Helvetica,Arial,sans-serif;
+  color: #5a5a5a;
+  font-size: 2.5em;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+h4 {
+  font-family: "Lato",Helvetica,Arial,sans-serif;
+  color: #5a5a5a;
+  font-size: 1.2em;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  line-height: 2em;
+  padding: 0 3em;
+}
+
+p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+
+
+/************************
+ICONS
+************************/
+
+
+
+.fa {
+  color: #fff;
+  font-size: 2.5em;
+}
+
+.fa-chevron-circle-down {
+  font-size: 5em;
+  opacity: 0.8;
+  padding-right: 25px;
+  float: right;
+  color: #fff;
+}
+
+.fa-desktop {
+  color: #5a5a5a;
+  font-size: 5em;
+  padding-top: .5em;
+}
+
+.fa-microphone {
+  color: #5a5a5a;
+  font-size: 5em;
+  padding-top: .5em;
+}
+
+
+
+/************************
+HEADER
+************************/
+
+
+
+header {
+  height: 115px;
+  width: 100%;
+  position: fixed;
+    z-index: 1000;
+}
+
+header img {
+  float: left;
+  padding: 20px 25px;
+}
+
+header i {
+  float: right;
+  padding: 30px 30px;
+}
+
+
+
+/************************
+SPLIT SCREEN SECTION 1
+************************/
+
+
+
+.split-screen {
+  width: 100%;
+  height: 100vh;
+  margin-left: 0px;
+  top: 0;
+}
+
+.left {
+  background: #fff; 
+  float: left; 
+  height: 100%; 
+  width: 50%; 
+}
+
+.right {
+  background: #27B7DB; 
+  height: 100%;
+  width: 50%;
+  float: right;
+}
+
+.left img {
+  float: left;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  height: 250px;
+}
+
+.right i {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding-bottom: 25px;
+}
+
+.left h1 {
+  color: #5a5a5a;
+  letter-spacing: -0.02em;
+  font-weight: 900;
+  font-size: 4rem;
+  padding-top: 3.5em;
+  margin-bottom: 0;
+}
+
+.right h1 {
+  color: #fff;
+  letter-spacing: -0.02em;
+  font-weight: 900;
+  font-size: 4rem;
+  padding-top: 3.5em;
+  margin-bottom: 0;
+}
+
+.left h2 {
+  color: #5a5a5a;
+  font-weight: normal;
+  font-size: 1.5em;
+  margin-top: .5em;
+  padding: 0 1.5em;
+}
+
+.right h2 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 1.5em;
+  margin-top: .5em;
+  padding: 0 1.5em;
+}
+
+
+
+/************************
+ABOUT SECTION
+************************/
+
+
+
+#about{
+  background-color: #F6F6F6;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 5em;
+}
+
+#about h3 {
+  padding-top: 2.5em; 
+  text-align: center;
+}
+
+#about h4 {
+  color: #979797;
+  text-align: center;
+}
+
+.wrapper-about {
+  max-width: 960px;
+  height: 200px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.twoup-left {
+  width: 50%;
+  height: 200px;
+  float: left; 
+}
+
+.twoup-left i {
+  color: #5a5a5a;
+}
+
+
+.twoup-left:hover {
+  background-color: #F25B58;
+}
+
+.twoup-left:hover i {
+  color: #fff;
+}
+
+.twoup-right {
+  width: 50%;
+  height: 200px;
+  float: right;
+}
+
+.twoup-right:hover {
+  background-color: #F25B58;
+}
+
+.twoup-right:hover i {
+  color: #fff;
+}
+
+.twoup-left h2 {
+  font-size: 1.1em;
+  color: #27B7DB;
+} 
+
+.twoup-left:hover h2 {
+  color: #fff;
+}
+
+.twoup-right h2 {
+  font-size: 1.1em;
+  color: #27B7DB;
+}
+
+.twoup-right:hover h2 {
+  color: #fff;
+}
+
+
+
+/************************
+PORTFOLIO SECTION
+************************/
+
+
+
+#portfolio {
+  background-color: #fff;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 5em;
+}
+
+ /*
+.section-three {
+ background: url("../images/adam-bg2.jpg") no-repeat center center;
+  background-size: cover;
+  text-align: center;
+}*/
+
+#portfolio h3 {
+  text-transform: uppercase;
+  padding-top: 2.5em;
+  text-align: center;
+}
+
+#portfolio h4 {
+  color: #979797;
+  text-align: center;
+}
+
+.wrapper-portfolio {
+
+}
+
+.holder {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.gallery {
+  max-width: 960px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 0;
+  list-style: none;
+}
+
+.gallery li {
+  float: left;
+  margin: 2.5%;
+  color: #fff;
+}
+
+
+.col-lrg {
+  background-color: red;
+  width: 60%;
+  margin: 2.5%;
+  float: left;
+}
+
+.col-small {
+  width: 27.5%;
+  background-color: blue;
+  margin: 2.5%;
+  float: left;
+}
+
+ul {
+  float: left;
+}
+
+
+
+/************************
+INSTAGRAM SECTION
+************************/
+
+
+
+.instagram {
+  background: #979797;
+  height: 600px;
+  margin-top: -1.1em;
+  padding: 20px;
+}
+
+
+
+/************************
+FOOTER
+************************/
+
+footer {
+  height: 150px;
+  background: #5a5a5a;
+  margin-top: -1.1em;
+  padding: 25px;
+  color: white;
+}
+
